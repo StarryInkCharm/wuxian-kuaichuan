@@ -29,7 +29,8 @@ jobs:
             zlib1g-dev libffi-dev libssl-dev \
             ccache git ccache
           pip install --upgrade pip
-          pip install buildozer cython==0.29.36
+          # Pin buildozer 1.4.0: 新版强制 AAB 但 p4a stable 不支持
+          pip install buildozer==1.4.0 cython==0.29.36
 
       - name: 缓存 buildozer 目录（加速后续构建）
         uses: actions/cache@v4
