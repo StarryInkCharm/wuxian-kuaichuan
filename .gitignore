@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Kivy
+.kivy/
+.kivy_settings/
+
+# 构建产物
+build/
+dist/
+*.spec.bak
+
+# 工具与临时目录
+.tools/
+.tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
