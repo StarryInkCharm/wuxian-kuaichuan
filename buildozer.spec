@@ -35,6 +35,8 @@ fullscreen = False
 p4a.bootstrap = sdl2
 # develop 分支支持 AAB，buildozer 1.4.0 需要
 p4a.branch = develop
+# 本地 recipe 覆盖：修复 libthorvg 的 glob 模式（lib/clang -> lib*/clang）
+p4a.local_recipes = ./recipes
 
 # 图标 / 启动画面（可选）
 # icon.filename = %(source.dir)s/assets/icon.png
