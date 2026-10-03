@@ -33,7 +33,8 @@ fullscreen = False
 
 # Kivy 启动方向
 p4a.bootstrap = sdl2
-p4a.branch = stable
+# develop 分支支持 AAB，buildozer 1.4.0 需要
+p4a.branch = develop
 
 # 图标 / 启动画面（可选）
 # icon.filename = %(source.dir)s/assets/icon.png
